@@ -6,8 +6,9 @@
 }
 
 #header {
+    overflow: auto;
     width: 1415px;
-    height: 786;
+    height: 786px;
     margin: 35px 105px 270px 80px;
     background-color: navajowhite;
 }
@@ -59,17 +60,18 @@
 }
 
 #logo {
-    position: relative;
+    float:left;
     width: 41px;
     height: 41px;
-    margin: 10px 111px;
+    margin: 10px auto auto 111px;
     background-color: blue;
 }
 
 #top-nav {
-    position: relative;
+    float:none;
     width: 663px;
-    margin: -42px 85px 10px auto;
+    height: 41px;
+    margin: 10px 85px 10px auto;
     background-color: blue;
     justify-content: space-between;
 }
@@ -79,11 +81,26 @@
     font-size: 14pt;
 }
 
+#header .image {
+    float: right;
+    width: 687px;
+    height: 654px;
+    background-color: yellow;
+}
+
 #header .text {
-    position: relative;
+    float: none;
     width: 356px;
     height: 160px;
     font-size: 42px;
     margin: 105px 263px 0px 109px;
     background-color: lightblue;
+}
+
+#header .form {
+    float: none;
+    position: relative;
+    width: 471px;
+    height: 344px;
+    background-color: rosybrown;
 }
