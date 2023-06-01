@@ -24,28 +24,28 @@
 #section3 {
     width: 1239px;
     height: 532px;
-    margin: 262px 240px 173px 121px;
+    margin: 262px 240px 0px 121px;
     background-color: white;    
 }
 
 #section4 {
     width: 1206px;
     height: 542px;
-    margin: 173px 154px 248px 240px;
+    margin: 173px 154px 0px 240px;
     background-color: white;    
 }
 
 #section5 {
     width: 1180px;
     height: 616px;
-    margin: 248px 324px 213px 96px;
+    margin: 248px 324px 0px 96px;
     background-color: white;    
 }
 
 #section6 {
     width: 1222px;
     height: 684px;
-    margin: 213px 235px 196px 143px;
+    margin: 213px 235px 0px 143px;
     background-color: white;    
 }
 
@@ -256,3 +256,53 @@
 
 /***************      Section 3      ***************/
 
+#section3 .top {
+    width: 100%;
+    display: flex;
+}
+
+#section3 .text {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 119px;
+    margin-top: 20px;
+}
+
+.viewall {
+    float: right;
+    margin: 36px 0px auto auto;
+    font-family: 'Inter', serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #F88F1D;
+}
+
+.viewall img {
+    margin-left: 8px;
+}
+
+#section3 .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-left: 119px;
+}
+
+#section3 .element1 {
+    position: relative;
+    top: -140px;
+    left: 8px;
+}
+
+#section3 .element2 {
+    position: relative;
+    top: -482px;
+    left: 1026px;
+}
+
+#section3 .element3 {
+    position: relative;
+    top: -12px;
+    left: 618px;
+}
