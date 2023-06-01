@@ -9,14 +9,15 @@
     overflow: hidden;
     width: 1415px;
     height: auto;
-    margin: 35px 105px 270px 80px;
+    margin: 35px 105px 0px 80px;
     background-color: #FFFFFF;
 }
 
 #section2 {
+    display: inline-block;
     width: 1242px;
     height: 550px;
-    margin: 270px 217px 262px 141px;
+    margin: 270px 217px 0px 141px;
     background-color: white;    
 }
 
@@ -84,7 +85,6 @@
     height: 16px;
     position: relative;
     top: 10px;
-    margin: 0px auto;
 }
 
 #header .image {
@@ -131,14 +131,19 @@
     border-radius: 8px;
 }
 
-.button-orange, #top-nav .button-orange {
+.button-orange{
     border: #F88F1D 2px solid;
     background-color: #F88F1D;
     color: #FFFFFF;
+    font-family: 'Inter', serif;
     font-size: 15px;
     width: 128px;
     height: 40px;
     border-radius: 8px;
+}
+
+#top-nav .button-orange{
+    color: #FFFFFF;
 }
 
 #header .form {
@@ -174,7 +179,6 @@
 #header .form .button-orange {
     width: 180px;
     height: 52px;
-    background-color: #F88F1D;
     margin: 44px auto 0px 0px;
     font-size: 16px;
 }
@@ -191,3 +195,64 @@
     background-color: black;
     margin: 18px auto 13px 0px; 
 }
+
+/***************      Section 2      ***************/
+
+#section2 .image {
+    float: left;
+    width: 659px;
+    height: 534px;
+    margin: 10px auto 0px 0px;
+}
+
+#section2 .text {
+    float: right;
+    width: 487px;
+    height: 333px;
+    margin-top: 120px;
+}
+
+#section2 .text .caption {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#section2 .text .filling {
+    font-family: 'Inter', serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 2;
+    margin: 26px auto;
+    color: #7D7987;
+}
+
+#section2 .text .button-orange {
+    width: 164px;
+    height: 45px;
+    margin: 42px auto 0px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#section2 span {
+    height: 15px;
+    position: relative;
+    top: 13px;
+}
+
+#section2 .element1 {
+    position: relative;
+    top: 0px;
+    left: 26px;
+}
+
+#section2 .element2 {
+    position: relative;
+    top: 378px;
+    left: 429px;
+}
+
+/***************      Section 3      ***************/
+
