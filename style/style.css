@@ -29,34 +29,23 @@
 }
 
 #section4 {
+    overflow: hidden;
     width: 1206px;
     height: 542px;
     margin: 173px 154px 0px 240px;
     background-color: white;    
 }
 
-#section5 {
-    width: 1180px;
-    height: 616px;
-    margin: 248px 324px 0px 96px;
-    background-color: white;    
-}
-
-#section6 {
-    width: 1222px;
-    height: 684px;
-    margin: 213px 235px 0px 143px;
-    background-color: white;    
-}
-
 #footer {
-    width: 1640px;
+    width: 90%;
     height: 482px;
     margin: 196px auto 0px;
     background-color: white;    
 }
 
-#logo {
+/***************      Header      ***************/
+
+#header .logo {
     float:left;
     width: 41px;
     height: 41px;
@@ -305,4 +294,94 @@
     position: relative;
     top: -12px;
     left: 618px;
+}
+
+/***************      Section 4      ***************/
+
+#section4 .image {
+    float: right;
+    margin-right: 44px;
+}
+
+#section4 .text {
+    width: 481px;
+    height: 303px;
+    margin-top: 148px;
+}
+
+#section4 .text .caption {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#section4 .text .filling {
+    font-family: 'Inter', serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 2;
+    margin: 26px auto;
+    color: #7D7987;
+}
+
+#section4 .text .button-orange {
+    width: 164px;
+    height: 46px;
+    margin: 38px auto 0px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#section4 span {
+    height: 15px;
+    position: relative;
+    top: 13px;
+}
+
+#section4 .element1 {
+    position: relative;
+    top: -358px;
+    left: 48px;
+}
+
+#section4 .element2 {
+    position: relative;
+    top: -48px;
+    left: 432px;
+}
+
+#section4 .element3 {
+    position: relative;
+    top: -464px;
+    left: 1192px;
+}
+
+/***************      Footer     ***************/
+
+#footer .info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+#footer .column, #footer .column1{
+    margin: 62px 92px auto 92px;
+    float: left;
+    min-width: 100px;
+    font-family: 'Inter', serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 2;
+    color: #848484;
+}
+
+#footer .column1 {
+    line-height: 1.5;
+}
+
+#footer .column span {
+    color:#000000;
+    font-weight: 600;
 }
