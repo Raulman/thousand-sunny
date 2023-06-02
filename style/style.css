@@ -36,7 +36,7 @@
 }
 
 #footer {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 196px auto 0px;
     background-color: #f9f9fb;    
@@ -359,13 +359,14 @@
 /***************      Footer     ***************/
 
 #footer .info {
-    width: 100%;
+    margin: 0px auto 0px auto;
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
 
 #footer .column, #footer .column1{
-    margin: 62px 82px auto 82px;
+    margin: 76px 60px auto 60px;
     float: left;
     min-width: 100px;
     font-family: 'Inter', serif;
@@ -379,6 +380,10 @@
     line-height: 1.7;
 }
 
+#footer .logo {
+    margin-bottom: 18px;
+}
+
 #footer .column1 div span {
     font-size: 17px;
 }
@@ -390,7 +395,7 @@
 
 #footer .line {
     margin: 62px auto auto auto;
-    width: calc(90% - 36px);
+    width: calc(75% - 36px);
     border-top: #c4c4c4 1px solid;
 }
 
