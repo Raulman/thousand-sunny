@@ -38,9 +38,9 @@
 
 #footer {
     width: 90%;
-    height: 482px;
+    height: auto;
     margin: 196px auto 0px;
-    background-color: white;    
+    background-color: #f9f9fb;    
 }
 
 /***************      Header      ***************/
@@ -363,25 +363,42 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
 }
 
 #footer .column, #footer .column1{
-    margin: 62px 92px auto 92px;
+    margin: 62px 82px auto 82px;
     float: left;
     min-width: 100px;
     font-family: 'Inter', serif;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 300;
-    line-height: 2;
+    line-height: 2.2;
     color: #848484;
 }
 
 #footer .column1 {
-    line-height: 1.5;
+    line-height: 1.7;
+}
+
+#footer .column1 div span {
+    font-size: 17px;
 }
 
 #footer .column span {
     color:#000000;
     font-weight: 600;
+}
+
+#footer .line {
+    margin: 62px auto auto auto;
+    width: calc(90% - 36px);
+    border-top: #c4c4c4 1px solid;
+}
+
+#footer .social-media {
+    height: 23px;
+    width: 248px;
+    margin: 30px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
 }
